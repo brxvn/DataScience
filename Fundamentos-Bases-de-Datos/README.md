@@ -16,6 +16,8 @@ El contenido de este documento esta basado en el curso del mismo nombre dictado 
 - [Introducción a las bases de datos relacionales](#Introducción-a-las-bases-de-datos-relacionales)
     - [Historia de las RDB](#Historia-de-las-RDB)
     - [Entidades y Atributos](#Entidades-y-Atributos)
+    - [Relaciones](#Relaciones)
+    - [Múltiples muchos](#Múltiples-muchos)
 
 
 # Conceptos Básicos
@@ -83,3 +85,5 @@ Es una propiedad de las relaciones que indica la cantidad y correspondencia con 
 <div align="center"> 
   <img src="readme_imgs/cardinalidad.png" width="100%">
 </div>
+
+### Múltiples muchos
