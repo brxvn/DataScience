@@ -58,7 +58,7 @@ Estas pueden ser:
 - **Abstracta**: cta bancaría, empresa, curso
 
 <div align="center"> 
-  <img src="readme_imgs/entidades.png" width="100%">
+  <img src="readme_imgs/entidades.png" width="70%">
 </div>
 
 - **Multivaluados**: puede tener varios valores (teléfonos, hijos, discos duros)
@@ -83,7 +83,7 @@ Las relaciones, representadas por un rombo, sirven para crear relaciones entre e
 Es una propiedad de las relaciones que indica la cantidad y correspondencia con la que puede estar relacionada una entidad y puede ser uno a uno, uno a varios, varios a uno y varios a varios.
 
 <div align="center"> 
-  <img src="readme_imgs/cardinalidad.png" width="100%">
+  <img src="readme_imgs/cardinalidad.png" width="70%">
 </div>
 
 ### Múltiples muchos
