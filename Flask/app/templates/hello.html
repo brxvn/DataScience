@@ -19,13 +19,15 @@
         <a href="{{ url_for("index") }}">Ir a inicio</a>
     {% endif %}
 
-    <div class="container">
-        {{ wtf.quick_form(login_form) }}
+    <div class="containter">
+        <h2>Agrega tareas</h2>
+
+        {{ wtf.quick_form(todo_form) }}
     </div>
 
-    <ul>
+    <ul class="list-group">
         {% for todo in todos %}
-            {{ macros.render_todo(todo) }}
+            {{ macros.render_todo(todo, delete_todo, update_todo) }}
         {% endfor %}
     </ul>
 
